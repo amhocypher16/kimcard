@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cyber-gradient text-white min-h-screen;
+}
+
+.glass {
+  @apply bg-glass-bg backdrop-blur-xl border border-glass-border shadow-glass rounded-2xl;
+}
+
+.neon {
+  @apply shadow-neon border-neon-blue;
+}
+
+.btn-glass {
+  @apply glass px-6 py-2 font-semibold text-neon-blue hover:text-neon-cyan transition-all duration-200 shadow-neon;
+}
+
+.card-glass {
+  @apply glass p-6 shadow-neon;
+}
